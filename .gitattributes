@@ -42,3 +42,4 @@ Generating[[:space:]]Adversarial[[:space:]]Samples/Data/imdb_pwws_bert.csv filte
 Generating[[:space:]]Adversarial[[:space:]]Samples/Data/rotten-tomatoes_bae_distilbert.csv filter=lfs diff=lfs merge=lfs -text
 Classifier/ag-news_classifier.pickle filter=lfs diff=lfs merge=lfs -text
 Classifier/imdb_classifier.pickle filter=lfs diff=lfs merge=lfs -text
+FGWS/data/models/roberta/imdb/data/train_texts.pkl filter=lfs diff=lfs merge=lfs -text
