@@ -1,6 +1,26 @@
 # "That is a Suspicious Reaction!": Interpreting Logits Variation to Detect NLP Word-Level Adversarial Attacks
 ### Supplementary material
 
+If you use or draw inspiration from this repository, please reference our ACL 2022 paper:
+
+```
+@inproceedings{mosca-etal-2022-suspicious,
+title = "{``}That Is a Suspicious Reaction!{''}: Interpreting Logits Variation to Detect {NLP} Adversarial Attacks",
+author = "Mosca, Edoardo  and
+   Agarwal, Shreyash  and
+   Rando Ram{\'\i}rez, Javier  and
+   Groh, Georg",
+booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+month = may,
+year = "2022",
+address = "Dublin, Ireland",
+publisher = "Association for Computational Linguistics",
+url = "https://aclanthology.org/2022.acl-long.538",
+pages = "7806--7816",
+abstract = "Adversarial attacks are a major challenge faced by current machine learning research. These purposely crafted inputs fool even the most advanced models, precluding their deployment in safety-critical applications. Extensive research in computer vision has been carried to develop reliable defense strategies. However, the same issue remains less explored in natural language processing. Our work presents a model-agnostic detector of adversarial text examples. The approach identifies patterns in the logits of the target classifier when perturbing the input text. The proposed detector improves the current state-of-the-art performance in recognizing adversarial inputs and exhibits strong generalization capabilities across different NLP models, datasets, and word-level attacks.",
+}
+```
+
 ## Introduction
 Adversarial attacks are a major challenge faced by current machine learning research. These purposely crafted inputs fool even the most advanced models, precluding their deployment in safety-critical applications. Extensive research in computer vision has been carried to develop reliable defense strategies. However, the same issue remains less explored in natural language processing. Our work presents a model-agnostic detector of adversarial examples. The approach identifies patterns in the logits of the target classifier when perturbing the input text. The proposed detector improves the current state-of-the-art performance in recognizing adversarial inputs and exhibits strong generalization capabilities across different models, datasets, and word-level attacks.
 
